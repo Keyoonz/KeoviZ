@@ -25,5 +25,8 @@ return {
 	keys = {
 		{ "<S-h>", "<cmd>BufferLineCyclePrev<cr>", desc = "Prev Buffer" },
 		{ "<S-l>", "<cmd>BufferLineCycleNext<cr>", desc = "Next Buffer" },
+		{ "<leader>bd", function ()
+			Snacks.bufdelete(n)
+		end, desc = "Next Buffer" },
 	}
 }

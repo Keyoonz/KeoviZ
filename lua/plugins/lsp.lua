@@ -21,8 +21,8 @@ return {
   {
     'neovim/nvim-lspconfig',
     config = function()
-      local lspconfig = require 'lspconfig'
-      lspconfig.harper_ls.setup { filetypes = { 'markdown' } }
+		 -- local lspconfig = require 'lspconfig'
+      vim.lsp.config('harper_ls', { filetypes = { 'markdown' }})
     end,
   },
 }

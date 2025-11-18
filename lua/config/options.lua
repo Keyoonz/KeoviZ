@@ -13,3 +13,4 @@ vim.opt.tabstop = 4
 vim.opt.expandtab = false
 
 vim.opt.cmdheight = 0
+
