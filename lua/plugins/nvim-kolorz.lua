@@ -1,5 +1,5 @@
 return {
-	"Keyoonz/nvim-kolorz",
+	"gitkeaz.keyonz.dev/Keyonz/nvim-kolorz",
 	name = "nvim-kolorz",
 	lazy = false,
 	priority = 1000,
